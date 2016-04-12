@@ -21,7 +21,7 @@ LumX Templates for Angular-Formly. Modern & flexible forms configured easily in 
 
 1. Angular (@1.3+)
 2. [Angular-Formly](https://github.com/formly-js/angular-formly "Angular-Formly") (@7.1)
-3. [LumX Framework](http://ui.lumapps.com/ "LumX Framework") (@0.3+)
+3. [LumX Framework](http://ui.lumapps.com/ "LumX Framework") (@1.0.0+)
 4. [ngMessages](https://docs.angularjs.org/api/ngMessages/directive/ngMessages "ngMessages Docs") (@1.3+)
 
 ## Getting Started

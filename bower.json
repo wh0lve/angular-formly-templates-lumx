@@ -34,6 +34,6 @@
     "angular-messages": "^1.3.16",
     "angular-aria": "^1.3.16",
     "angular-formly": "^7.1.2",
-    "lumx": "^0.3.35"
+    "lumx": "^1.0.0rc3"
   }
 }
