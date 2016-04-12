@@ -3,8 +3,8 @@
 		{{to.label}} {{::to.required ? '*' : ''}}
 	</label></h3>
 	<lx-select ng-model="model[options.key]"
-	           choices="to.options"
-	           placeholder="{{::to.placeholder}}"
+	           lx-choices="to.choices"
+	           lx-label="{{::to.placeholder}}"
 	           min-length="::to.minLength"
 	           allow-clear="::to.allowClear"
 	           ng-attr-multiple="{{::to.multiple}}">

@@ -3,11 +3,11 @@
   var USING_TEMPLATES = true;
   /* Custom validation message defaults here */
   var VALIDATION_MESSAGES = [{
-    name: 'required', message: 'This field is required'
+    name: 'required', message: 'Dit is een verplicht veld'
   }, {
-    name: 'maxlength', message: 'This field is too long.'
+    name: 'maxlength', message: 'Dit veld is te lang.'
   }, {
-    name: 'minlength', message: 'This field is too short.'
+    name: 'minlength', message: 'Dit veld is te kort.'
   }];
   /* Module Templates + Data */
   var MODULE_NAME = 'formlyLumx';
@@ -86,7 +86,7 @@
     apiCheck: function(check) {
       return {
         templateOptions: {
-          label: check.string,
+           label: check.string,
           placeholder: check.string,
           'min-length': check.number,
           'allow-clear': check.boolean,
