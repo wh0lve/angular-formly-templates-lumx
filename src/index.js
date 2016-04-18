@@ -104,6 +104,29 @@
     //	name: 'select-async',
     //	template: require('./fields/lx-select-async.html')
   }, {
+    name: 'select-img',
+    template: require('./fields/lx-select-img.html'),
+    apiCheck: function(check) {
+      return {
+        templateOptions: {
+           label: check.string,
+          placeholder: check.string,
+          'min-length': check.number,
+          'allow-clear': check.boolean,
+          'ng-attr-multiple': check.boolean,
+          selected: check.string,
+          selected2: check.string,
+          choice: check.string,
+          choice2: check.string,
+          choices: check.array,
+          required: check.boolean
+        }
+      };
+    }
+    //}, {
+    //	name: 'select-async',
+    //	template: require('./fields/lx-select-async.html')
+  }, {
     name: 'switch',
     template: require('./fields/lx-switch.html'),
     apiCheck: function(check) {
