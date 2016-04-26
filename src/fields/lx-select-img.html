@@ -3,7 +3,7 @@
 		{{to.label}} {{::to.required ? '*' : ''}}
 	</label></h3>
 	<lx-select ng-model="model[options.key]" lx-choices="to.choices" lx-label="{{::to.placeholder}}" min-length="::to.minLength"
-		allow-clear="::to.allowClear" ng-attr-multiple="{{::to.multiple}}">
+		allow-clear="::to.allowClear" ng-attr-multiple="{{::to.multiple}}" style="float:left; width:90%;">
 
 		<lx-select-selected>
 			{{ $selected}}
@@ -18,6 +18,6 @@
 		</lx-select-choices>
 
 	</lx-select>
-	<img style="float:right; width:10%; margin-bottom:40px; margin-top:14px;" ng-src="{{filepath }}{{editStar.ThumbFilename}}"
+	<img style="float:right; width:10%; margin-bottom:40px; margin-top:14px;" ng-src="http://beng.kissthefrog.lan/expContent/{{model[options.key]}}"
 		width="50" height="50" class="img" err-src="img/placeholder_face.svg">
 </div>
