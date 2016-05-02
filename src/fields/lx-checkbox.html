@@ -1,6 +1,6 @@
-<div class="checkbox">
+<div class="p+">
 	<lx-checkbox ng-model="model[options.key]">
-	<lx-checkbox-label for={{::id}} class="checkbox__label" aria-label="{{::to.label}}">{{to.label}}</lx-checkbox-label>
-	<lx-checkbox-help ng-if="::to.description"
-	      class="checkbox__help">{{::to.description}}</lx-checkbox-help>
+		<lx-checkbox-label>{{to.label}}</lx-checkbox-label>
+		<lx-checkbox-help ng-if="::to.description">{{::to.description}}</lx-checkbox-help>
+	</lx-checkbox>
 </div>
