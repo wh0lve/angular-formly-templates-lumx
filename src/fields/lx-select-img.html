@@ -11,13 +11,13 @@
 
 		<lx-select-choices>
 			<div class="block imagePicker">
-				<img ng-src="{{filepath }}{{$choice}}" height="50" class="selectimg" err-src="img/placeholder_img.svg"
+				<img src="{{$choice | imgSrc}}" height="50" class="selectimg" err-src="img/placeholder_face.svg"
 				/>
 				<h5>{{ $choice }}</h5>
 			</div>
 		</lx-select-choices>
 
 	</lx-select>
-	<img style="float:right; width:10%; margin-bottom:40px; margin-top:14px;" ng-src="{{filepath }}{{model[options.key]}}"
-		width="50" height="50" class="img" err-src="img/placeholder_img.svg">
+	<img style="float:right; width:10%; margin-bottom:40px; margin-top:14px;" ng-src="{{$choice | imgSrc}}"
+		width="50" height="50" class="img" err-src="img/placeholder_face.svg">
 </div>
